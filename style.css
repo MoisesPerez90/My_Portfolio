@@ -1,0 +1,254 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+header{
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: rgb(101, 100, 100);
+}
+
+header nav{
+    display: inline-flexbox;
+    padding-top: 11px;
+    padding-right: 10px;
+    float: right;
+}
+
+header h1{
+    padding-left: 20px;
+    background-color: rgb(26, 225, 225);
+    color: rgb(101, 100, 100);
+}
+
+.sections ul a{
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(26, 225, 225);
+
+}
+
+nav a:hover{
+    background-color: rgb(26, 225, 225);
+    color:rgb(101, 100, 100);
+}
+
+.Subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: 200px; 
+    padding: 10px 0px 10px 10px;
+    font-size: 19px;
+    background-image: url(https://www.aner.com/media/k2/items/cache/16db9b88d9515580a78d5965b066ac2d_L.jpg);
+}
+
+.Subtitle img{
+    width: 100px;
+    height: 128px;
+    margin: 10px 45px;
+    border-radius: 50%;    
+}
+
+.Subtitle p{
+    background-color: aqua;
+    padding: 10px 20px 10px 0px;
+    font-size: 22px;
+    color:rgb(101, 100, 100);
+    text-decoration: none;
+}
+
+h2{
+    width: 25%;
+    border-right: 5px solid;
+    border-right-color: rgb(1, 1, 63);
+    padding: 15px;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end;
+    color:rgb(1, 1, 63);
+}
+
+.About-me{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraphs{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+}
+
+.paragraphs p{
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.Work{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Work div{
+    width: 75%;
+    padding: 8px 20px;
+}
+
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Projects p{
+    width: 70%;
+    background-color: rgb(26, 225, 225);
+    color: rgb(101, 100, 100);
+    font-size: 10px;
+    justify-content: flex-end;
+    block-size: auto;
+    line-height: 0;
+}
+
+.Projects div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+span{
+    font-size: 16px;
+}
+
+#Medical-Appointments{
+    box-sizing: border-box;
+    width: 302px;
+    height: 154px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFwZ1QpbVyv5vEXiuRwh0ztKf9ynEh3vIVRw&usqp=CAU);
+    object-fit: cover;
+    opacity: 0.75;
+    margin: 10px;
+    border: 4px solid;
+    border-color: rgb(26, 225, 225);
+}
+
+
+#Medical-Appointments:hover{
+    opacity: 1;
+    width: 400px;
+    height: 250px;
+}
+
+#ledWall{
+    box-sizing: border-box;
+    width: 302px;
+    height: 154px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ8YZUruL5pKJ729Wy98OsdIwazO23Vrlb7g&usqp=CAU);
+    opacity: 0.75;
+    margin: 10px;
+    border: 4px solid;
+    border-color: rgb(26, 225, 225);
+}
+
+#ledWall:hover{
+    opacity: 1;
+    width: 400px;
+    height: 250px;
+}
+
+#calculator{
+    box-sizing: border-box;
+    width: 302px;
+    height: 154px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObFlm0SWdtyXE1sqObRGNdOHLDfUKbajcSg&usqp=CAU);
+    opacity: 0.75;
+    margin: 10px;
+    border: 4px solid;
+    border-color: rgb(26, 225, 225);
+}
+
+#calculator:hover{
+    opacity: 1;
+    width: 400px;
+    height: 250px;
+}
+
+#pastelPuzzels{
+    box-sizing: border-box;
+    width: 302px;
+    height: 154px;
+    background-image: url(https://images.template.net/wp-content/uploads/2016/05/19142659/BEACH-RESORT-SUNSET-Cool-Backgrounds.jpg);
+    opacity: 0.75;
+    margin: 10px;
+    border: 4px solid;
+    border-color: rgb(26, 225, 225);
+}
+
+#pastelPuzzels:hover{
+    opacity: 1;
+    width: 400px;
+    height: 250px;
+}
+
+#runBuddy{
+    box-sizing: border-box;
+    width: 302px;
+    height: 154px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulihaxnAgRe-aaEdVlhBbdBb1hbecOA8C8g&usqp=CAU);
+    opacity: 0.75;
+    margin: 10px;
+    border: 4px solid;
+    border-color: rgb(26, 225, 225);
+}
+
+#runBuddy:hover{
+    opacity: 1;
+    width: 400px;
+    height: 250px;
+}
+
+.Contact-me{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Contact-me div{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info a, p{
+    padding: 10px;
+    text-decoration: underline;  
+    color: black;
+} 
+
+@media screen and (max-width: 768px) {
+    *   {
+        font-size: 95%;
+    }
+
+    h2{
+        font-size: 20px
+    }
+
+}
+
